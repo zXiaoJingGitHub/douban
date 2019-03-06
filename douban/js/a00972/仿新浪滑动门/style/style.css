@@ -1,0 +1,16 @@
+﻿/* Design by Jason.Leung, QQ,147430218, SINAWeiBo, @切片面包 */
+/* 酷站代码整理 http://www.5icool.org */
+*{margin:0px; padding:0px;}
+a{text-decoration: none; color:black; font-size: 14px;}
+a:hover{color:#ff6600; text-decoration: underline;}
+
+#box{width:500px; height:600px;  border:1px solid #ccc;position: relative; margin:10px auto;}
+
+.title{width:500px; height:40px; position: absolute; top:0px; left:0px; background:#f9f9f9; list-style: none;}
+.title li {width:100px; height:40px; float:left; line-height: 40px; text-align: center; font-size: 18px; font-family: 'Arial'; cursor: pointer;}
+.title span{width:auto; height:40px; float:right; line-height: 40px; text-align: center; font-size: 12px; font-family: 'Arial'; margin-right:10px; color:#ff0000;}
+.active{background:white; border-top:2px solid #ff6600;}
+
+#context{width:500px; height:auto; position: absolute; left:0px; top:50px;}
+#context ul{position: absolute; left:0px; top:0px; display: none;}
+#context ul li{width:auto; height:auto; color:black; margin:10px; margin-left:30px;}

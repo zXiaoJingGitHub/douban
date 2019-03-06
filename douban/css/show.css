@@ -1,0 +1,89 @@
+@Charset=utf-8
+/* CSS Document */
+/*全局样式*/
+*{margin:0; padding:0;}
+body{font-family:"宋体"; font-size:14px; color:#666;background:#fff;}
+li{list-style:none;}
+a{ text-decoration:none; color:#000;}
+.clearfix:after{content:""; height:0; visibility:hidden; display:block; clear:both;}
+.clearfix{display:inline-block;}
+.clearfix{display:block;}
+.wrap{width:1000px; margin:0 auto;}
+/*top*/
+.top{background:#545652;height:20px;}
+.top ul li{float:left;padding-left:10px;}
+.top ul span li{float:right;}
+.top ul li a{color:#fff;font-size:12px;}
+.top ul li a:hover{color:#999;}
+/*.top ul span li .xiazai a:hover{background:url(../images/%E6%96%87%E5%AD%97.png) no-repeat bottom;}*/
+/*nav*/
+.nav p{padding-left:1000px;height:30px;padding-top:10px;}
+/*.nav p a:hover{background:url(../images/%E6%96%87%E5%AD%97.png) no-repeat right;padding:50px 50px;z-index:10000;}*/
+/*main1-mid*/
+#myFocus{ width:1330px; height:243px;clear:both;}
+/*main*/
+/*left*/
+
+.main1{padding-top:50px;}
+.main1 .left{left:50px;}
+.main1 h2{border-bottom:1px solid #CCC;padding-left:50px;}
+.main1 .left ul{float:left;text-align:center;width:240px;}
+.main1 .left ul li{padding-top:20px;}
+.main1 .left ul li a:hover{border-bottom:1px solid #03F;background:#666;color:#FFF;}
+.main1 .ding a{background:#C30;color:#FFF;border-radius:8px;
+border:none; border-bottom:2px solid #333;font-weight:bold;padding:3px 8px;} 
+/*zhong*/
+.main1 .zhong{width:300px;margin-left:360px;margin-top:30px;}
+.main1 .zhong ul li{padding-top:20px;border-bottom:1px solid #CCC;}
+.main1 .zhong ul li a{font-size:10px;}
+.main1 .zhong ul li span{color:#0C0;}
+/*right*/
+.main1 .right{float:right;margin-top:-220px;margin-right:90px;}
+/*.main .right a:hover{background:url(../images/lianjie.png) no-repeat right;padding:110px 110px;z-index:1000;}*/
+
+.main2{padding-top:50px;}
+.main2 .left{left:50px;}
+.main2 h2{border-bottom:1px solid #CCC;padding-left:50px;}
+.main2 .left ul{float:left;text-align:center;width:240px;}
+.main2 .left ul li{padding-top:20px;}
+.main2 .left ul li a:hover{border-bottom:1px solid #03F;background:#666;color:#FFF;}
+.main2 .ding a{background:#C30;color:#FFF;border-radius:8px;
+border:none; border-bottom:2px solid #333;font-weight:bold;padding:3px 8px;} 
+/*zhong*/
+.main2 .zhong{width:300px;margin-left:360px;margin-top:30px;}
+.main2 .zhong ul li{padding-top:20px;border-bottom:1px solid #CCC;}
+.main2 .zhong ul li a{font-size:10px;}
+.main2 .zhong ul li span{color:#0C0;}
+/*right*/
+.main2 .right{float:right;margin-top:-220px;margin-right:90px;}
+
+
+.main3{padding-top:50px;margin-bottom:20px;}
+.main3 .left{left:50px;}
+.main3 h2{border-bottom:1px solid #CCC;padding-left:50px;}
+.main3 .left ul{float:left;text-align:center;width:240px;}
+.main3 .left ul li{padding-top:20px;}
+.main3 .left ul li a:hover{border-bottom:1px solid #03F;background:#666;color:#FFF;}
+.main3 .ding a{background:#C30;color:#FFF;border-radius:8px;
+border:none; border-bottom:2px solid #333;font-weight:bold;padding:3px 8px;} 
+/*zhong*/
+.main3 .zhong{width:300px;margin-left:360px;margin-top:30px;}
+.main3 .zhong ul li{padding-top:20px;border-bottom:1px solid #CCC;}
+.main3 .zhong ul li a{font-size:10px;}
+.main3 .zhong ul li span{color:#0C0;}
+/*right*/
+.main3 .right{float:right;margin-top:-220px;margin-right:90px;}
+
+
+/*footer*/
+
+.footer{border-top:1px dashed #CCC;padding-top:20px;margin-top:100px;}
+.footer .dleft{padding-left:-150px;}
+.footer .dleft ul li a{color:#363;}
+.footer .dright ul{float:right;margin-top:-80px;position:relative;left:-200px;}
+.footer .dright ul li{float:left;margin-left:-15px;position:relative;left:350px;}
+.footer .dright ul li a{color:#036;}
+.footer .dright ul li a:hover{background:#09F;}
+.footer .dright ul li img{margin-top:20px;position:relative;left:-420px;}
+
+
